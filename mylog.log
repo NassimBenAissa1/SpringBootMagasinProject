@@ -1,0 +1,341 @@
+2021-12-14 00:57:23.103  INFO 14592 --- [restartedMain] t.e.spring.SpringBootAppApplication      : Starting SpringBootAppApplication using Java 1.8.0_60 on DESKTOP-AUL4HUP with PID 14592 (C:\Users\Asus\Documents\GitHub\SpringBackEndProject\target\classes started by Asus in C:\Users\Asus\Documents\GitHub\SpringBackEndProject)
+2021-12-14 00:57:23.114  INFO 14592 --- [restartedMain] t.e.spring.SpringBootAppApplication      : No active profile set, falling back to default profiles: default
+2021-12-14 00:57:23.278  INFO 14592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14 00:57:23.279  INFO 14592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14 00:57:26.758  INFO 14592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14 00:57:27.033  INFO 14592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 257 ms. Found 10 JPA repository interfaces.
+2021-12-14 00:57:28.419  INFO 14592 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7968f85f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-14 00:57:28.432  INFO 14592 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-14 00:57:29.475  INFO 14592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8075 (http)
+2021-12-14 00:57:29.516  INFO 14592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-14 00:57:29.517  INFO 14592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-14 00:57:29.787  INFO 14592 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-12-14 00:57:29.788  INFO 14592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6505 ms
+2021-12-14 00:57:30.017  WARN 14592 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14 00:57:30.309  INFO 14592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14 00:57:30.442  INFO 14592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14 00:57:30.793  INFO 14592 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14 00:57:31.072  INFO 14592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-14 00:57:31.556  INFO 14592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-14 00:57:31.598  INFO 14592 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-14 00:57:34.662  INFO 14592 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14 00:57:34.685  INFO 14592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14 00:57:39.069  INFO 14592 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79e02c01, org.springframework.security.web.context.SecurityContextPersistenceFilter@36a42bf3, org.springframework.security.web.header.HeaderWriterFilter@6fbda1c1, org.springframework.web.filter.CorsFilter@22c2cde3, org.springframework.security.web.authentication.logout.LogoutFilter@7744668a, tn.esprit.spring.security.jwt.AuthTokenFilter@59db7ea1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d221c8e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3904a5a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63daa81d, org.springframework.security.web.session.SessionManagementFilter@31d2a685, org.springframework.security.web.access.ExceptionTranslationFilter@d214634, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3892b3c]
+2021-12-14 00:57:39.364  INFO 14592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-14 00:57:39.987  INFO 14592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8075 (http) with context path '/SpringMVC'
+2021-12-14 00:57:41.301  INFO 14592 --- [restartedMain] t.e.spring.SpringBootAppApplication      : Started SpringBootAppApplication in 19.369 seconds (JVM running for 23.034)
+2021-12-14 00:57:41.308  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 00:57:41.459  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 00:57:41.460  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 00:57:41.460  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 156 milliseconds.
+2021-12-14 00:58:41.298  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 00:58:41.325  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 00:58:41.326  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 00:58:41.328  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 30 milliseconds.
+2021-12-14 00:59:41.306  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 00:59:41.311  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 00:59:41.311  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 00:59:41.312  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 6 milliseconds.
+2021-12-14 01:00:41.305  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:00:41.311  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:00:41.311  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:00:41.312  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 7 milliseconds.
+2021-12-14 01:01:41.304  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:01:41.309  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:01:41.309  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:01:41.309  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 5 milliseconds.
+2021-12-14 01:02:41.308  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:02:41.313  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:02:41.313  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:02:41.313  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 5 milliseconds.
+2021-12-14 01:03:41.310  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:03:41.315  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:03:41.315  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:03:41.315  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 5 milliseconds.
+2021-12-14 01:03:51.896  INFO 14592 --- [http-nio-8075-exec-1] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-14 01:03:51.897  INFO 14592 --- [http-nio-8075-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-14 01:03:51.899  INFO 14592 --- [http-nio-8075-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-12-14 01:03:52.365 ERROR 14592 --- [http-nio-8075-exec-1] t.e.s.security.jwt.AuthEntryPointJwt     : Unauthorized error: Bad credentials
+2021-12-14 01:03:54.437 ERROR 14592 --- [http-nio-8075-exec-2] t.e.s.security.jwt.AuthEntryPointJwt     : Unauthorized error: Bad credentials
+2021-12-14 01:04:00.253 ERROR 14592 --- [http-nio-8075-exec-3] t.e.s.security.jwt.AuthEntryPointJwt     : Unauthorized error: Bad credentials
+2021-12-14 01:04:20.178 ERROR 14592 --- [http-nio-8075-exec-4] t.e.s.security.jwt.AuthEntryPointJwt     : Unauthorized error: Bad credentials
+2021-12-14 01:04:32.200 ERROR 14592 --- [http-nio-8075-exec-5] t.e.s.security.jwt.AuthEntryPointJwt     : Unauthorized error: Bad credentials
+2021-12-14 01:04:41.300  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:04:41.304  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:04:41.305  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:04:41.305  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 5 milliseconds.
+2021-12-14 01:05:41.296  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:05:41.299  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:05:41.300  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:05:41.300  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 4 milliseconds.
+2021-12-14 01:06:09.484 ERROR 14592 --- [http-nio-8075-exec-6] t.e.s.security.jwt.AuthEntryPointJwt     : Unauthorized error: Bad credentials
+2021-12-14 01:06:41.310  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:06:41.315  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:06:41.315  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:06:41.316  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 6 milliseconds.
+2021-12-14 01:06:45.493 ERROR 14592 --- [http-nio-8075-exec-7] t.e.s.security.jwt.AuthEntryPointJwt     : Unauthorized error: Bad credentials
+2021-12-14 01:07:00.062 ERROR 14592 --- [http-nio-8075-exec-8] t.e.s.security.jwt.AuthEntryPointJwt     : Unauthorized error: Bad credentials
+2021-12-14 01:07:40.937 ERROR 14592 --- [http-nio-8075-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/SpringMVC] threw exception [Request processing failed; nested exception is org.springframework.aop.AopInvocationException: Null return value from advice does not match primitive return type for: public abstract float tn.esprit.spring.repository.FactureRepository.getChiffreaffairetoday(java.util.Date)] with root cause
+
+org.springframework.aop.AopInvocationException: Null return value from advice does not match primitive return type for: public abstract float tn.esprit.spring.repository.FactureRepository.getChiffreaffairetoday(java.util.Date)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:229) ~[spring-aop-5.3.13.jar:5.3.13]
+	at com.sun.proxy.$Proxy147.getChiffreaffairetoday(Unknown Source) ~[na:na]
+	at tn.esprit.spring.service.FactureServiceImpl.getChiffreaffairetoday(FactureServiceImpl.java:114) ~[classes/:na]
+	at tn.esprit.spring.controller.FactureController.getChiffreaffairetoday(FactureController.java:127) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_60]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at tn.esprit.spring.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:49) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+
+2021-12-14 01:07:41.309  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:07:41.320  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:07:41.321  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:07:41.321  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 12 milliseconds.
+2021-12-14 01:08:41.300  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:08:41.306  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:08:41.306  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:08:41.306  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 6 milliseconds.
+2021-12-14 01:09:41.295  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:09:41.300  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:09:41.300  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:09:41.300  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 5 milliseconds.
+2021-12-14 01:10:41.304  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:10:41.308  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:10:41.308  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:10:41.308  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 4 milliseconds.
+2021-12-14 01:11:41.302  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:11:41.308  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:11:41.308  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:11:41.308  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 6 milliseconds.
+2021-12-14 01:12:41.311  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:12:41.320  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:12:41.321  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:12:41.321  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 10 milliseconds.
+2021-12-14 01:13:41.303  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:13:41.310  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:13:41.310  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:13:41.310  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 7 milliseconds.
+2021-12-14 01:14:41.307  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:14:41.313  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:14:41.313  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:14:41.314  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 7 milliseconds.
+2021-12-14 01:15:41.306  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:15:41.310  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:15:41.311  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:15:41.311  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 5 milliseconds.
+2021-12-14 01:16:41.298  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:16:41.302  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:16:41.302  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:16:41.303  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 5 milliseconds.
+2021-12-14 01:17:41.298  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:17:41.302  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:17:41.302  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:17:41.302  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 4 milliseconds.
+2021-12-14 01:18:41.302  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:18:41.306  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:18:41.306  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:18:41.306  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 4 milliseconds.
+2021-12-14 01:19:00.554  INFO 14592 --- [http-nio-8075-exec-10] tn.esprit.spring.LoggingAspect           : Before method invoked::List tn.esprit.spring.service.StockServiceImpl.retrieveAllStocks()
+2021-12-14 01:19:00.558  INFO 14592 --- [http-nio-8075-exec-10] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::List tn.esprit.spring.service.StockServiceImpl.retrieveAllStocks()
+2021-12-14 01:19:00.558  INFO 14592 --- [http-nio-8075-exec-10] tn.esprit.spring.LoggingAspect           : After method invoked::List tn.esprit.spring.service.StockServiceImpl.retrieveAllStocks()
+2021-12-14 01:19:00.558  INFO 14592 --- [http-nio-8075-exec-10] tn.esprit.spring.LoggingAspect           : Method execution time: 4 milliseconds.
+2021-12-14 01:19:02.488 ERROR 14592 --- [http-nio-8075-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/SpringMVC] threw exception [Request processing failed; nested exception is org.springframework.aop.AopInvocationException: Null return value from advice does not match primitive return type for: public abstract float tn.esprit.spring.repository.FactureRepository.getChiffreaffairetoday(java.util.Date)] with root cause
+
+org.springframework.aop.AopInvocationException: Null return value from advice does not match primitive return type for: public abstract float tn.esprit.spring.repository.FactureRepository.getChiffreaffairetoday(java.util.Date)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:229) ~[spring-aop-5.3.13.jar:5.3.13]
+	at com.sun.proxy.$Proxy147.getChiffreaffairetoday(Unknown Source) ~[na:na]
+	at tn.esprit.spring.service.FactureServiceImpl.getChiffreaffairetoday(FactureServiceImpl.java:114) ~[classes/:na]
+	at tn.esprit.spring.controller.FactureController.getChiffreaffairetoday(FactureController.java:127) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_60]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at tn.esprit.spring.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:49) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.5.3.jar:5.5.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+
+2021-12-14 01:19:41.300  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Before method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:19:41.303  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : AfterReturning method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:19:41.303  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : After method invoked::void tn.esprit.spring.service.StockServiceImpl.retrieveStatusStock()
+2021-12-14 01:19:41.304  INFO 14592 --- [scheduling-1] tn.esprit.spring.LoggingAspect           : Method execution time: 4 milliseconds.
+2021-12-14 01:19:57.935  INFO 14592 --- [RMI TCP Connection(32)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-14 01:19:58.299  INFO 14592 --- [RMI TCP Connection(32)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14 01:19:58.305  INFO 14592 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-14 01:19:58.318  INFO 14592 --- [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
